@@ -1,0 +1,89 @@
+OVERLAYS
+    ">Saving","> Gemmer"
+    ">Checking for updates",">Undersøger om der er opdateringer"
+
+
+BUTTONS
+    "> Settings","> Opsætning"
+
+
+MENU ITEMS
+    ">Current page",">Valgte side"
+    ">Menu",">Menu"
+    ">Files",">Filer"
+    ">Themes",">Tema"
+    ">Plugins",">Plugin"
+    ">Security",">Sikkerhed"
+
+
+CURRENT PAGE
+    ">Page title",">Sidens titel"
+    ">Page keywords",">Sidens nøgleord"
+    ">Page description",">Sidens beskrivelse"
+    "> Delete page","> Slet siden"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('Slet $1?')"
+
+
+MENU
+    ">Website title","> Hjemmesidens overskrift"
+    ">Page to display on homepage","> Siden der skal vises som forside"
+    ">visit",">besøg"
+    "> Add page","> Tilføj side"
+
+
+FILES
+    ">Upload","> Upload"
+    ">Delete files","> Slet filer"
+
+
+THEMES AND PLUGINS
+    "> Check for updates","> Undersøger om der er opdateringer"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('Fjern $1?')"
+    ">Active",">V uporabi"
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktivere $1?')"
+    "> Activate","> Aktivere"
+    "> More info","> Mere information"
+    "> Install","> Installere"
+    ">Installed version:",">Installerede version:"
+    ">Custom repository",">Tilpasset pakke (repository)"
+    "Enter URL to custom repository","Indsæt URL til en tilpasset pakke"
+    "> Add", "> Tilføj"
+    "> Read more about custom repositories",">Læs mere om tilpassede pakker"
+
+
+SECURITY
+    ">Admin login URL","> Admin URL login"
+    ">Save your login URL to log in to your website next time:",">Husk din Admin login til hjemmesiden til næste login"
+    ">Password",">Adgangskode"
+    "Old password","Gamle adgangskode"
+    "New password","Nye adgangskode"
+    "> Change password","> Skift adgangskoden"
+
+    "> How to restore backup","> Sådan gendanner du en sikkerhedskopi"
+    ">Improved security \(Apache only\)",">Udvidet sikkerhed (kun Apache servere)"
+    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">HTTPS redirect, 30 day caching, iframes kun tilladt fra samme kilde, anti mime type sniffing, mere stringent cookie and refferer politik."
+    ">ON \(warning: may break your website\)",">ON (advarsel : kan ødelægge hjemmesiden)"
+    ">OFF \(reset htaccess to default\)",">OFF (gendanner htacces til normal)"
+    "> Read more before enabling","> Læs mere før du slår det til"
+    ">Backup","> Sikkerhedskopi"
+    "> Backup website","> Sikkerheskopiere hjemmesiden"
+    ">Last 5 logins",">Sidste 5 der har logget ind"
+
+
+STATISTICS
+    ">Statistics",">Statistik"
+    ">Today",">I dag"
+    ">This week",">Denne uge"
+    ">Most popular page",">Mest populære side"
+    ">Pageviews last two weeks",">Sidevisninger de sidste to uger"
+    ">Sessions last two weeks",">Sessioner de sidste to uger"
+    ">Sessions",">Sessioner"
+    ">Pageviews","Sidevisninger"
+
+
+FOOTER
+    ">News",">Nyheder"
+    ">Community",">Forum"
+    ">Docs",">Dokumenter"
+    ">Donate",">Støt os"
+    ">Shop\/Merch",">Butik"
