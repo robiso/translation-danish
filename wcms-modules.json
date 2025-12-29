@@ -6,6 +6,7 @@
             "repo": "https://github.com/robiso/translation-danish/tree/main",
             "zip": "https://github.com/robiso/translation-danish/archive/main.zip",
             "summary": "Danish translation for WonderCMS settings.",
+            "group": "translation",
             "version": "1.0.1",
             "image": "https://raw.githubusercontent.com/robiso/translation-danish/main/preview.jpg"
         }
