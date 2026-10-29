@@ -138,7 +138,6 @@ ALERTS
     "^Custom module not found\.$","Det tilpassede modul blev ikke fundet."
     "Custom module <b>([^<]*)<\/b> removed from <a ([^>]*)>([^<]*)<\/a>\. Anything installed from it stays until you remove it\.","Det tilpassede modul <b>$1</b> er fjernet fra <a $2>$3</a>. Alt, der er installeret derfra, bliver, indtil du fjerner det."
     "Module successfully added to <a ([^>]*)>([^<]*)<\/b><\/a>\.","Modulet er tilføjet til <a $1>$2</b></a>."
-    "Every remaining page is private, so the new home page \(([^<]*?)\) is private too: visitors get the 404 page at the site address\. Make it public in Settings -> Menu\.","Alle tilbageværende sider er private, så den nye forside ($1) er også privat: besøgende får 404-siden på sidens adresse. Gør den offentlig under Opsætning -> Menu."
     "A private page cannot be the home page: visitors would get the 404 page at the site address\. Make it public first\.","En privat side kan ikke være forside: besøgende ville få 404-siden på sidens adresse. Gør den offentlig først."
     "Could not write ([^<]*?)\. Check the free disk space and the permissions of the data folder; nothing was changed\.","Kunne ikke skrive $1. Tjek den ledige diskplads og rettighederne til mappen data; intet er ændret."
     "This page cannot be saved: its parent page does not exist\. Create the parent page first\.","Siden kan ikke gemmes: dens overordnede side findes ikke. Opret først den overordnede side."
@@ -216,3 +215,4 @@ ALERTS
     "<b>Open file options to see your uploaded file<\/b>","<b>Åbn filindstillinger for at se den uploadede fil</b>"
     "^Cannot create ZIP archive\.$","ZIP-arkivet kunne ikke oprettes."
     "^Hide all alerts until next login$","Skjul alle beskeder indtil næste login"
+    "^Make another page public first: the home page cannot be private\.$","Gør først en anden side offentlig: forsiden kan ikke være privat."
