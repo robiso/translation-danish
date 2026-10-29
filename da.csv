@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> Opsætning"
+    "return confirm\('Log out\?'\)","return confirm('Log ud?')"
 
 
 MENU ITEMS
@@ -29,6 +30,10 @@ MENU
     ">Website title","> Hjemmesidens overskrift"
     ">Page to display on homepage","> Siden der skal vises som forside"
     ">visit",">besøg"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Gør siden privat (kun du kan se den, mens du er logget ind)"""
+    "title=""Make page public""","title=""Gør siden offentlig"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> privat</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> offentlig</a>"
     "> Add page","> Tilføj side"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Undersøger om der er opdateringer"
+    "title=""Remove this repository from the list""","title=""Fjern denne pakke (repository) fra listen"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Fjern $1? Alt, der er installeret derfra, bliver."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Fjern $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Fjern $1?"""
     ">Active",">V uporabi"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktivere $1?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Aktivere $1?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""Deaktiver $1?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Dette er et $1-plugin. Hvis du installerer $2, deaktiveres $3. Fortsæt?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""Dette er et $1-plugin. Hvis du opdaterer $2, forbliver det aktivt, og $3 deaktiveres. Fortsæt?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Dette er et $1-plugin. Hvis du aktiverer $2, deaktiveres $3. Fortsæt?"""
     "> Activate","> Aktivere"
     "> More info","> Mere information"
     "> Install","> Installere"
     ">Installed version:",">Installerede version:"
     ">Custom repository",">Tilpasset pakke (repository)"
     "Enter URL to custom repository","Indsæt URL til en tilpasset pakke"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Det kan være MEGET farligt at tilføje ukendte moduler. Er du sikker på, at du vil fortsætte?')"
     "> Add", "> Tilføj"
     "> Read more about custom repositories",">Læs mere om tilpassede pakker"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">HTTPS redirect, 30 day caching, iframes kun tilladt fra samme kilde, anti mime type sniffing, mere stringent cookie and refferer politik."
     ">ON \(warning: may break your website\)",">ON (advarsel : kan ødelægge hjemmesiden)"
     ">OFF \(reset htaccess to default\)",">OFF (gendanner htacces til normal)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Er du sikker? Det kan ødelægge din hjemmeside, hvis SSL ikke er sat korrekt op.')"
     "> Read more before enabling","> Læs mere før du slår det til"
     ">Backup","> Sikkerhedskopi"
     "> Backup website","> Sikkerheskopiere hjemmesiden"
